@@ -1,0 +1,43 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Audis</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Year</th>
+      <th>Trim</th>
+      <th>Horsepower</th>
+      <th>Torque</th>
+      <th>Number of cylinders</th>
+      <th>Engine displacement</th>
+      <th>Valves per cylinder</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @audis.each do |audi| %>
+      <tr>
+        <td><%= audi.make %></td>
+        <td><%= audi.model %></td>
+        <td><%= audi.year %></td>
+        <td><%= audi.trim %></td>
+        <td><%= audi.horsepower %></td>
+        <td><%= audi.torque %></td>
+        <td><%= audi.number_of_cylinders %></td>
+        <td><%= audi.engine_displacement %></td>
+        <td><%= audi.valves_per_cylinder %></td>
+        <td><%= link_to 'Show', audi %></td>
+        <td><%= link_to 'Edit', edit_audi_path(audi) %></td>
+        <td><%= link_to 'Destroy', audi, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Audi', new_audi_path %>

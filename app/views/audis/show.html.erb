@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @audi.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @audi.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @audi.year %>
+</p>
+
+<p>
+  <strong>Trim:</strong>
+  <%= @audi.trim %>
+</p>
+
+<p>
+  <strong>Horsepower:</strong>
+  <%= @audi.horsepower %>
+</p>
+
+<p>
+  <strong>Torque:</strong>
+  <%= @audi.torque %>
+</p>
+
+<p>
+  <strong>Number of cylinders:</strong>
+  <%= @audi.number_of_cylinders %>
+</p>
+
+<p>
+  <strong>Engine displacement:</strong>
+  <%= @audi.engine_displacement %>
+</p>
+
+<p>
+  <strong>Valves per cylinder:</strong>
+  <%= @audi.valves_per_cylinder %>
+</p>
+
+<%= link_to 'Edit', edit_audi_path(@audi) %> |
+<%= link_to 'Back', audis_path %>

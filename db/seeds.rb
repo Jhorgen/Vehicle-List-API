@@ -1,4 +1,5 @@
 Vehicle.destroy_all
+Audi.destroy_all
 
 # Alfa Romeo 145
 
@@ -1027,13 +1028,13 @@ Vehicle.create(
 ############## Audi ##############
 
 Audi.create(
-  make: '',
-  model: '',
-  year: ,
-  trim: '',
-  horsepower: ,
-  torque:
-  number_of_cylinders: ,
-  engine_displacement: ,
-  valves_per_cylinder: 
+  make: 'test',
+  model: 'test',
+  year: 1,
+  trim: 'test',
+  horsepower: 1,
+  torque: 1,
+  number_of_cylinders: 1,
+  engine_displacement: 1.0,
+  valves_per_cylinder: 4
 )

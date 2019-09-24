@@ -1,42 +1,42 @@
-class Api::V1::VehiclesController < ApplicationController
-  before_action :set_vehicle, only: [:show, :update, :destroy]
-  # GET /vehicles
+class Api::V1::AudisController < ApplicationController
+  before_action :set_audi, only: [:show, :update, :destroy]
+  # GET /audis
   def index
-    @vehicles = Vehicle.all
-    render json: @vehicles
+    @audis = Audi.all
+    render json: @audis
   end
-  # GET /vehicles/1
+  # GET /audis/1
   def show
-    render json: @vehicle
+    render json: @audi
   end
-  # POST /vehicles
+  # POST /audis
   def create
-    @vehicle = Vehicle.new(vehicle_params)
-    if @vehicle.save
-      render json: @vehicle, status: :created, location:        api_v1_vehicle_url(@vehicle)
+    @audi = Audi.new(audi_params)
+    if @audi.save
+      render json: @audi, status: :created, location:        api_v1_audi_url(@audi)
     else
-      render json: @vehicle.errors, status: :unprocessable_entity
+      render json: @audi.errors, status: :unprocessable_entity
     end
   end
-  # PATCH/PUT /vehicles/1
+  # PATCH/PUT /audis/1
   def update
-    if @vehicle.update(vehicle_params)
-      render json: @vehicle
+    if @audi.update(audi_params)
+      render json: @audi
     else
-      render json: @vehicle.errors, status: :unprocessable_entity
+      render json: @audi.errors, status: :unprocessable_entity
     end
   end
-  # DELETE /vehicles/1
+  # DELETE /audis/1
   def destroy
-    @vehicle.destroy
+    @audi.destroy
   end
   private
   # Use callbacks to share common setup or constraints between actions.
-  def set_vehicle
-    @vehicle = Vehicle.find(params[:id])
+  def set_audi
+    @audi = Audi.find(params[:id])
   end
   # Only allow a trusted parameter “white list” through.
-  def vehicle_params
-    params.require(:vehicle).permit(:title, :content, :slug)
+  def audi_params
+    params.require(:audi).permit(:make, :model, :year, :trim, :horsepower, :torque, :number_of_cylinders, :engine_displacement, :valves_per_cylinder)
   end
 end

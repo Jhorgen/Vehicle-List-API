@@ -22,7 +22,7 @@ Vehicle.create(
   number_of_cylinders: 4,
   engine_displacement: 1.4,
   valves_per_cylinder: 2
-)
+) 
 
 Vehicle.create(
   make: 'Alfa Romeo',

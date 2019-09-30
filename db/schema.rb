@@ -10,24 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_22_225822) do
+ActiveRecord::Schema.define(version: 2019_09_22_211040) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "audis", force: :cascade do |t|
-    t.string "make"
-    t.string "model"
-    t.integer "year"
-    t.string "trim"
-    t.integer "horsepower"
-    t.integer "torque"
-    t.integer "number_of_cylinders"
-    t.float "engine_displacement"
-    t.integer "valves_per_cylinder"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "vehicles", force: :cascade do |t|
     t.string "make"
@@ -35,6 +21,7 @@ ActiveRecord::Schema.define(version: 2019_09_22_225822) do
     t.integer "year"
     t.string "trim"
     t.integer "horsepower"
+    t.integer "torque"
     t.integer "number_of_cylinders"
     t.float "engine_displacement"
     t.integer "valves_per_cylinder"

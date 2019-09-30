@@ -1,2 +1,0 @@
-class Audi < ApplicationRecord
-end

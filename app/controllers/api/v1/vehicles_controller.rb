@@ -2,8 +2,13 @@ class Api::V1::VehiclesController < ApplicationController
   before_action :set_vehicle, only: [:show, :update, :destroy]
   # GET /vehicles
   def index
-    @vehicles = Vehicle.all
-    render json: @vehicles
+    if params[:make]
+      @vehicles = Vehicle.find_by_make(params[:make])
+      render json: @vehicles
+    else
+      @vehicles = Vehicle.all
+      render json: @vehicles
+    end
   end
   # GET /vehicles/1
   def show

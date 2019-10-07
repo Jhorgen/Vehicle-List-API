@@ -8,7 +8,7 @@ Vehicle.create(
   year: 1994,
   trim: '1.4 I.E',
   horsepower: 90,
-  torque:, 
+  torque:,
   number_of_cylinders: 4,
   engine_displacement: 1.4,
   valves_per_cylinder: 2
@@ -1205,6 +1205,18 @@ Vehicle.create(
   engine_displacement: 2.0,
   valves_per_cylinder: 4
 )
+Vehicle.create(
+  make: 'Audi',
+  model: '146',
+  year: 2001,
+  trim: '2.0 16V Qudrifoglio',
+  horsepower: 155,
+  torque:,
+  number_of_cylinders: 4,
+  engine_displacement: 2.0,
+  valves_per_cylinder: 4
+)
+
 Vehicle.create(
   make: 'Audi',
   model: '146',

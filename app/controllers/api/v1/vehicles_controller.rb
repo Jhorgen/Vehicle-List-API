@@ -2,13 +2,11 @@ class Api::V1::VehiclesController < ApplicationController
   before_action :set_vehicle, only: [:show, :update, :destroy]
   # GET /vehicles
   def index
-    if params[:make]
       @vehicles = Vehicle.find_by_make(params[:make])
+      .find_by_model(params[:model])
+      .find_by_year(params[:year])
+      .find_by_trim(params[:trim])
       render json: @vehicles
-    else
-      @vehicles = Vehicle.all
-      render json: @vehicles
-    end
   end
   # GET /vehicles/1
   def show

@@ -247,7 +247,7 @@ Vehicle.create(
   year: 1996,
   trim: '1.7 I.E 16V T.S.',
   horsepower: 140,
-  torque:,
+  torque: 128,
   number_of_cylinders: 4,
   engine_displacement: 1.7,
   valves_per_cylinder: 4

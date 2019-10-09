@@ -1119,112 +1119,372 @@ Vehicle.create(
 
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 1996,
+  trim: '2.8 V6',
+  horsepower: 193,
+  torque: 207,
+  number_of_cylinders: 6,
+  engine_displacement: 2.8,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 1997,
+  trim: '2.8 V6',
+  horsepower: 193,
+  torque: 207,
+  number_of_cylinders: 6,
+  engine_displacement: 2.8,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 1998,
+  trim: '2.8 V6',
+  horsepower: 193,
+  torque: 207,
+  number_of_cylinders: 6,
+  engine_displacement: 2.8,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 1999,
+  trim: '2.8 V6',
+  horsepower: 193,
+  torque: 207,
+  number_of_cylinders: 6,
+  engine_displacement: 2.8,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 2000,
+  trim: '2.8 V6',
+  horsepower: 193,
+  torque: 207,
+  number_of_cylinders: 6,
+  engine_displacement: 2.8,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
+  model: 'A4',
   year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  trim: '3.0 V6',
+  horsepower: 217,
+  torque: 221,
+  number_of_cylinders: 6,
+  engine_displacement: 3.0,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 2002,
+  trim: '3.0 V6',
+  horsepower: 217,
+  torque: 221,
+  number_of_cylinders: 6,
+  engine_displacement: 3.0,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
-  valves_per_cylinder: 4
+  model: 'A4',
+  year: 2003,
+  trim: '3.0 V6',
+  horsepower: 217,
+  torque: 221,
+  number_of_cylinders: 6,
+  engine_displacement: 3.0,
+  valves_per_cylinder: 5
 )
+
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
+  model: 'A4',
+  year: 2004,
+  trim: '3.0 V6',
+  horsepower: 217,
+  torque: 221,
+  number_of_cylinders: 6,
+  engine_displacement: 3.0,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2004,
+  trim: '3.2 FSI V6',
+  horsepower: 252,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
   valves_per_cylinder: 4
 )
 
 Vehicle.create(
   make: 'Audi',
-  model: '146',
-  year: 2001,
-  trim: '2.0 16V Qudrifoglio',
-  horsepower: 155,
-  torque:1,
-  number_of_cylinders: 4,
-  engine_displacement: 2.0,
+  model: 'A4',
+  year: 2005,
+  trim: '3.2 FSI V6',
+  horsepower: 252,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
   valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2006,
+  trim: '3.2 FSI V6',
+  horsepower: 252,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2007,
+  trim: '3.2 FSI V6',
+  horsepower: 252,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2008,
+  trim: '3.2 FSI V6',
+  horsepower: 265,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2009,
+  trim: '3.2 FSI V6',
+  horsepower: 265,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2010,
+  trim: '3.2 FSI V6',
+  horsepower: 265,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'A4',
+  year: 2011,
+  trim: '3.2 FSI V6',
+  horsepower: 265,
+  torque: 243,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2002,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2003,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2004,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2005,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2006,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2007,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2008,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2009,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'TT',
+  year: 2010,
+  trim: '3.2i V6',
+  horsepower: 250,
+  torque: 236,
+  number_of_cylinders: 6,
+  engine_displacement: 3.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'S4',
+  year: 1992,
+  trim: '4.2 V8',
+  horsepower: 276,
+  torque: 254,
+  number_of_cylinders: 8,
+  engine_displacement: 4.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'S4',
+  year: 1993,
+  trim: '4.2 V8',
+  horsepower: 276,
+  torque: 254,
+  number_of_cylinders: 8,
+  engine_displacement: 4.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'S4',
+  year: 1994,
+  trim: '4.2 V8',
+  horsepower: 276,
+  torque: 254,
+  number_of_cylinders: 8,
+  engine_displacement: 4.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'S4',
+  year: 2003,
+  trim: '4.2 V8',
+  horsepower: 339,
+  torque: 302,
+  number_of_cylinders: 8,
+  engine_displacement: 4.2,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Audi',
+  model: 'S4',
+  year: 2004,
+  trim: '4.2 V8',
+  horsepower: 339,
+  torque: 302,
+  number_of_cylinders: 8,
+  engine_displacement: 4.2,
+  valves_per_cylinder: 5
 )

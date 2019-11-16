@@ -1115,6 +1115,177 @@ Vehicle.create(
   valves_per_cylinder: 4
 )
 
+########## Aston Martin ##########
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1978,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1979,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1980,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1981,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1982,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1983,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1984,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1985,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1986,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1987,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1988,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'AMV8',
+  year: 1989,
+  trim: '5.3 V8',
+  horsepower: 309,
+  torque: 332,
+  number_of_cylinders: 8,
+  engine_displacement: 5.3,
+  valves_per_cylinder: 2
+)
+
+
+Vehicle.create(
+  make: 'Aston Martin',
+  model: 'Zagato',
+  year: 2011,
+  trim: '6.0 V12',
+  horsepower: 517,
+  torque: 420,
+  number_of_cylinders: 12,
+  engine_displacement: 6.0
+  valves_per_cylinder: 4
+
+  Vehicle.create(
+    make: 'Aston Martin',
+    model: 'Zagato',
+    year: 2012,
+    trim: '6.0 V12',
+    horsepower: 517,
+    torque: 420,
+    number_of_cylinders: 12,
+    engine_displacement: 6.0
+    valves_per_cylinder: 4
+
+)
+
 ############## Audi ##############
 
 Vehicle.create(
@@ -1487,4 +1658,463 @@ Vehicle.create(
   number_of_cylinders: 8,
   engine_displacement: 4.2,
   valves_per_cylinder: 5
+)
+
+# Bentley
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1984,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1985,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1986,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1987,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1988,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1989,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1990,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1991,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1992,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+Vehicle.create(
+  make: 'Bentley',
+  model: 'S4',
+  year: 1993,
+  trim: '4.2 V8',
+  horsepower: 218,
+  torque: null,
+  number_of_cylinders: 8,
+  engine_displacement: 6.75,
+  valves_per_cylinder: 5
+)
+
+## Honda ##
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Wagon",
+  year: 1990,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Wagon",
+  year: 1991,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Wagon",
+  year: 1992,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Wagon",
+  year: 1993,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1990,
+  trim: "1.8",
+  horsepower: 105,
+  torque: 105,
+  number_of_cylinders: 4,
+  engine_displacement 1.8,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1991,
+  trim: "1.8",
+  horsepower: 105,
+  torque: 105,
+  number_of_cylinders: 4,
+  engine_displacement 1.8,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1992,
+  trim: "1.8",
+  horsepower: 105,
+  torque: 105,
+  number_of_cylinders: 4,
+  engine_displacement 1.8,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1993,
+  trim: "1.8",
+  horsepower: 105,
+  torque: 105,
+  number_of_cylinders: 4,
+  engine_displacement 1.8,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1990,
+  trim: "2.0 16V",
+  horsepower: 90,
+  torque: 109,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1991,
+  trim: "2.0 16V",
+  horsepower: 90,
+  torque: 109,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1992,
+  trim: "2.0 16V",
+  horsepower: 90,
+  torque: 109,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1993,
+  trim: "2.0 16V",
+  horsepower: 90,
+  torque: 109,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1990,
+  trim: "2.0 i 16V",
+  horsepower: 133,
+  torque: 132,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1991,
+  trim: "2.0 i 16V",
+  horsepower: 133,
+  torque: 132,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1992,
+  trim: "2.0 i 16V",
+  horsepower: 133,
+  torque: 132,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1993,
+  trim: "2.0 i 16V",
+  horsepower: 133,
+  torque: 132,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1990,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1991,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1992,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord",
+  year: 1993,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+#CC1
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1991,
+  trim: "2.0 i 16V",
+  horsepower: 150,
+  torque: 137,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1992,
+  trim: "2.0 i 16V",
+  horsepower: 150,
+  torque: 137,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1993,
+  trim: "2.0 i 16V",
+  horsepower: 150,
+  torque: 137,
+  number_of_cylinders: 4,
+  engine_displacement 2.0,
+  valves_per_cylinder: 4
+)
+#CC1
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1990,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1991,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1992,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1993,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+)
+#CD7
+Vehicle.create(
+  make: "Honda",
+  model: "Accord IV Coupe",
+  year: 1990,
+  trim: "2.2 i 16V",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
 )

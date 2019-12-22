@@ -33,9 +33,9 @@ $cd vehicle_list
 
 $bundle i
 
-$rake db: create
+$rake db:create
 
-$rake db: migrate
+$rake db:migrate
 
 $rails s
 

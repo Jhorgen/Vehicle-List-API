@@ -1,4 +1,4 @@
-# Vehicle list - vehicle data API
+# Vehicle list API
 
 This is the backend to my Turbo Performance react application. It features hard coded vehicle data that can be searched through and used to make calculations via the front-end. Next, I plan to build a web scraper to gather the remainder of the data required to complete the database.
 

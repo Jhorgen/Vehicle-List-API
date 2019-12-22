@@ -1,24 +1,48 @@
-# README
+# Vehicle list - vehicle data API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend to my Turbo Performance react application. It features hard coded vehicle data that can be searched through and used to make calculations via the front-end. Next, I plan to build a web scraper to gather the remainder of the data required to complete the database.
 
-Things you may want to cover:
+Example entry:
 
-* Ruby version
+  ```
+  make: "Honda",
+  model: "Accord V Wagon",
+  year: 1997,
+  trim: "2.2 i ES",
+  horsepower: 150,
+  torque: 146,
+  number_of_cylinders: 4,
+  engine_displacement 2.2,
+  valves_per_cylinder: 4
+  ```
 
-* System dependencies
 
-* Configuration
+## Getting Started
 
-* Database creation
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-* Database initialization
 
-* How to run the test suite
+### Setup & Deployment
 
-* Services (job queues, cache servers, search engines, etc.)
+You can view the live application here: https://sleepy-waters-58808.herokuapp.com/api/v1/vehicles
 
-* Deployment instructions
+Or download and install it locally.
 
-* ...
+```
+$cd vehicle_list
+$bundle i
+$rake db:migrate
+$rails s
+``` 
+
+## Built With
+
+* [Ruby on Rails](https://rubyonrails.org/)
+
+## Authors
+
+* **Josh Horgen**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

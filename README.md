@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You can view the live application here: https://sleepy-waters-58808.herokuapp.com/api/v1/vehicles
 
-Or download and install it locally.
+Or download and install it locally by following the step-by-step guide provided below.
 
 ```
 $cd vehicle_list
@@ -40,6 +40,7 @@ $rake db: migrate
 $rails s
 
 visit http://localhost:3000/api/v1/vehicles
+
 ``` 
 
 ## Built With

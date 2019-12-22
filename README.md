@@ -30,9 +30,16 @@ Or download and install it locally.
 
 ```
 $cd vehicle_list
+
 $bundle i
-$rake db:migrate
+
+$rake db: create
+
+$rake db: migrate
+
 $rails s
+
+visit http://localhost:3000/api/v1/vehicles
 ``` 
 
 ## Built With
